@@ -1,0 +1,17 @@
+{
+	"name": "web-server",
+	"version": "1.0.0",
+	"description": " HTTP web server with Node.js",
+	"author": {
+		"name": "Daryl"
+	},
+	"scripts": {
+		"start": "node dist/index.js",
+		"build": "tsc",
+		"dev": "tsc && node dist/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.7",
+		"typescript": "^5.4.5"
+	}
+}
